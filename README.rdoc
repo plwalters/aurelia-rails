@@ -1,28 +1,21 @@
-== README
+# aurelia on rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To get started -
 
-Things you may want to cover:
+```
+$ git clone https://github.com/PWKad/aurelia-rails
+$ cd aurelia-rails
+$ bundle install
+$ cd public/client
+$ npm install
+$ jspm install
+$ gulp build
+```
 
-* Ruby version
+And open your browser to localhost:3000
 
-* System dependencies
+You can improve the process by adding a startup script that runs gulp build.
 
-* Configuration
+Typically I have `gulp watch` watching my js files for changes and rails serving the app.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Enjoy!
